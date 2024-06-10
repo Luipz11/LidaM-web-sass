@@ -1,0 +1,18 @@
+@import "./utilities/variables";
+@import "./utilities/mixin";
+@import "./utilities/extend";
+
+@import "./utilities/reset";
+@import "./utilities/global";
+
+@import "./components/header";
+@import "./page/main-index";
+@import "./page/main-sobremi";
+@import "./page/main-sanaconmigo";
+@import "./page/main-reiki";
+@import "./page/main-vivencias";
+@import "./page/main-contacto";
+
+@import "./components/footer";
+
+@import "./utilities/mediaquerie";

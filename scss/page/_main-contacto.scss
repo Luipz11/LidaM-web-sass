@@ -1,0 +1,38 @@
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 5px 0;
+    justify-content: center;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  iframe {
+    max-width: 50%;
+    height: auto;
+    border: 0;
+  }
+  

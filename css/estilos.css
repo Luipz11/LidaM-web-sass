@@ -1,0 +1,543 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+.titulo, header .logoytipo .tipografia .titulo .subtitulo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+body {
+  overflow-x: hidden;
+  font-size: large;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  background-color: #e5f1ee;
+}
+
+.main-container {
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h6 {
+  margin: 10px;
+  padding: 10px;
+}
+
+h1 {
+  padding-top: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0px 10px;
+  justify-content: center;
+}
+
+nav li {
+  text-align: right;
+  display: inline;
+  margin: 5px;
+  padding: 5px;
+}
+
+nav a {
+  color: #171718;
+  text-decoration: none;
+}
+
+p {
+  padding: 10px;
+  font-size: x-large;
+  text-align: justify;
+}
+
+h3 {
+  padding-left: 20px;
+}
+
+h6 {
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
+header {
+  overflow-x: hidden;
+  background-color: #dbe5dd;
+  background-image: url("data:image/svg+xml,%3Csvg width='32' height='64' viewBox='0 0 32 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 28h20V16h-4v8H4V4h28v28h-4V8H8v12h4v-8h12v20H0v-4zm12 8h20v4H16v24H0v-4h12V36zm16 12h-4v12h8v4H20V44h12v12h-4v-8zM0 36h8v20H0v-4h4V40H0v-4z' fill='%2383c675' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+  display: flex;
+  align-items: center;
+}
+header .logoytipo {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+}
+header .logoytipo .logo {
+  width: 150px;
+}
+header .logoytipo .tipografia {
+  width: 200px;
+  gap: 50px;
+}
+header .logoytipo .tipografia .titulo, header .logoytipo .tipografia .titulo .subtitulo {
+  text-align: center;
+}
+header .logoytipo .tipografia .titulo .subtitulo {
+  color: #666;
+}
+header .logoytipo .tipografia h6 {
+  margin: 0;
+  size: 5px;
+}
+
+h1 {
+  margin: 10px;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0 10px;
+  justify-content: center;
+}
+nav ul li {
+  text-align: right;
+  display: inline;
+  margin: 5px;
+  padding: 5px;
+}
+nav ul li a {
+  color: #171718;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: transparent !important;
+}
+
+#menu {
+  position: relative;
+  left: 550px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav ul li a:hover {
+  color: rgb(229, 238, 232);
+}
+
+main {
+  text-align: center;
+}
+main h1 {
+  font-size: 2.5rem;
+  margin-top: 20px;
+  color: #333;
+}
+main iframe {
+  width: 100%;
+  height: 80vh;
+  border: none;
+}
+main p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #666;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+section {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+section h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+section img {
+  max-width: 100%;
+  border-radius: 10px;
+  height: auto;
+}
+section p {
+  text-align: justify;
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+main h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+main section {
+  margin-bottom: 40px;
+}
+main section h3 {
+  margin-bottom: 20px;
+}
+main section img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+main section p {
+  text-align: justify;
+  margin: 0;
+}
+
+main {
+  text-align: center;
+}
+main > section#Introducción {
+  margin-bottom: 40px;
+  padding: 20px;
+}
+main > section#Introducción h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+main > section#Introducción p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+main > section[id*=Reiki]:not(#Introducción) {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+main > section[id*=Reiki]:not(#Introducción) h3 {
+  margin-bottom: 10px;
+}
+main > section[id*=Reiki]:not(#Introducción) p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+main > section[id*=Reiki]:not(#Introducción) img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container .row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.container .row .col {
+  margin: 0 10px;
+  text-align: center;
+  animation: fadeIn 0.5s ease;
+}
+.container .row .col img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.container .row .col p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+p:last-of-type {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin: 5px 0;
+  justify-content: center;
+}
+
+input[type=submit] {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+iframe {
+  max-width: 50%;
+  height: auto;
+  border: 0;
+}
+
+footer {
+  overflow-x: hidden;
+  gap: 20px;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.footer-section {
+  margin-right: 20px;
+  flex: 1;
+}
+.footer-section p {
+  margin: 0;
+  float: right;
+}
+
+.footer-section2,
+.footer-section3 {
+  flex-basis: auto;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.footer-section {
+  margin-right: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+}
+.social-icons ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  transform: scale(1.2);
+}
+.social-icons ul li {
+  margin-right: 25px;
+}
+.social-icons ul li a {
+  color: white;
+  font-size: 24px;
+  transition: transform 0.3s, color 0.3s;
+}
+.social-icons ul li a:hover {
+  color: rgb(229, 238, 232);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+.social-icons ul li a .footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+.social-icons ul li a .footer-section {
+  flex: 1;
+}
+.social-icons ul li a .footer-section p {
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+.social-icons ul li .footer-section2,
+.social-icons ul li .footer-section3 {
+  flex-basis: 100%;
+  text-align: center;
+}
+.social-icons ul li .social-icons {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+}
+.social-icons ul li .social-icons ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.social-icons ul li .social-icons ul li {
+  margin-right: 25px;
+}
+.social-icons ul li .social-icons ul li a {
+  color: white;
+  font-size: 24px;
+  transition: transform 0.3s, color 0.3s;
+}
+.social-icons ul li .social-icons ul li a:hover {
+  color: #64cb86;
+  transform: scale(1.2);
+}
+.social-icons ul li .whatsapp-float {
+  position: absolute;
+  right: 20px;
+}
+.social-icons ul li .whatsapp-float a {
+  background-color: #64cb86;
+  color: rgb(229, 238, 232);
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  display: block;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s;
+}
+.social-icons ul li .whatsapp-float a:hover {
+  background-color: rgb(229, 238, 232);
+  transform: scale(1.2);
+}
+
+.whatsapp-float {
+  position: absolute;
+  right: 20px;
+}
+.whatsapp-float a {
+  background-color: #64cb86;
+  color: rgb(229, 238, 232);
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  display: block;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s;
+}
+.whatsapp-float a:hover {
+  background-color: rgb(229, 238, 232);
+  transform: scale(1.2);
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+    margin: 0;
+  }
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+  body {
+    font-size: 16px;
+    margin: 10px;
+  }
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  #formulario {
+    align-items: flex-start;
+  }
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 961px) {
+  body {
+    font-size: 18px;
+    margin: 20px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+@media only screen and (max-width: 480px) {
+  nav ul li {
+    margin: 10px 0;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
